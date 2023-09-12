@@ -1,0 +1,40 @@
+@import '../libs/bootstrap-reboot.min';
+@import '../libs/slick';
+@import '../libs/animate-min';
+
+@import '../base/fonts';
+@import '../base/variables';
+@import '../base/mixins';
+@import '../base/animations';
+
+* {
+  font-family: 'MuseoModerno';
+}
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 10px
+}
+
+@import 'promo';
+@import 'header';
+@import 'buttons';
+@import 'advantage';
+@import 'titles';
+@import 'consultation';
+@import 'forms';
+@import 'carusel';
+@import 'catalog';
+@import 'review';
+@import 'footer';
+@import 'modal';
+@import 'pageup';
+
+
+
+
+@import '../base/media';

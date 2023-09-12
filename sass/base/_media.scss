@@ -1,0 +1,385 @@
+@media (max-width: 1199px) {
+  .promo{
+    &__wrapper {
+      align-items: center;
+    }
+  }
+  .section-title {
+    &_left {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .promo {
+    &__wrapper {
+      align-items: end;
+      margin-top: 60px;
+    }
+    &__icons {
+      margin-top: 35px;
+    }
+  }  
+
+    .header {
+      &__logo {
+        max-width: 220px;
+      }
+      &__phone {
+        font-size: 16px;
+      }
+    }
+
+  .button {
+    &_main {
+      margin-top: 40px;
+      width: 230px;
+      font-size: 14px;
+    }
+  } 
+  
+  .advantage {
+    padding: 53px 0 63px;
+  }
+  .section-title {
+    font-size: 28px;
+    &_left {
+      font-size: 28px;
+    }
+  }
+  .carusel {
+    &__inner{
+      width: 100%;
+      .slick-next {
+        right: 0;
+        opacity: .5;
+        z-index: 1;
+      }
+      .slick-prev {
+        left: 0;
+        opacity: .5;
+        z-index: 1;
+      }
+    }
+    .slick-slide img {
+      margin: 0 auto;
+    }
+  }
+  .catalog{
+    &__content {
+      justify-content: center;
+    }
+    &-item {
+      flex-basis: 48%;
+      // max-width: 280px;
+    }
+  }
+
+  .footer {
+    &__info {
+    padding: 30px 40px 30px;
+    max-width: 375px;
+    max-height: 230px;
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  .promo {
+    padding: 20px 0 40px;
+    min-height: 100vh;
+    &__wrapper {
+    align-items: center;
+    }
+  }
+
+  .header {
+    &__oficial {
+      display: none;
+    }
+  }
+
+  .advantage {
+    padding: 30px 0;
+    &__cards {
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__card {
+      flex: 0 1 48%;
+    }
+    &__card:not(:nth-child(3n)) {
+      margin: 0;
+    }
+  }
+  .section-title {
+    margin-bottom: 30px;
+    }
+
+  .consultation {
+    padding: 60px 0;
+  }
+  .feed-form {
+    align-items: center;
+    width: 100%;
+  } 
+  .button{
+    &_submit{
+      max-width: 232px;
+      font-size: 14px;
+    }
+    &_mini {
+      width: 110px;
+      height: 35px;
+      font-size: 12px;
+    }
+  }
+  .carusel{
+    padding: 40px 0;
+    &__inner {
+      ul{
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+        gap: 25px;
+        button {
+          border-radius: 100%;
+          border: none;
+          background-color: $main-color;
+          outline: 1px solid rgb(0, 0, 0);
+          width: 25px;
+          height: 25px;
+          font-size: 0; 
+        }
+      }
+    }
+  }
+  .catalog{
+    &__tabs {
+      gap: 8px;
+      margin-top: 30px;
+    }
+    &__tab {
+      max-width: 150px;
+      max-height: 40px;
+      font-size: 16px;
+      line-height: 1;
+    }
+    &-item {
+      margin-bottom: 0;
+      &__old-price {
+        font-size: 12px;
+      }
+      &__price {
+        font-size: 18px;
+      }
+    }
+  }
+  .footer {
+    &__info {
+    padding: 10px 20px 10px;
+    max-width: 300px;
+    max-height: 160px;
+    left: 100%;
+    transform: translateX(-100%);
+    }
+    &__adress {
+    margin-bottom: 10px;
+    }
+    &__phone {
+    margin-bottom: 15px;
+    }
+    &__social-item {
+      width: 40px;
+      height: 40px;
+      img{
+        height: 20px;
+      }
+    }  
+  }
+
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 0 5px;
+  }
+  .promo {
+    padding: 10px 0;  
+    &__header {
+      font-size: 30px;
+      text-align: center;
+    } 
+    &__subheader {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 1;
+    }
+    &__icons {
+      justify-content: center;
+      max-width: 290px;
+    } 
+    &__icon {
+      width: 0;
+      flex: 0 1 33.33%;
+      font-size: 11px;
+      line-height: 1;
+      img {
+        max-width: 35px;
+      }
+    }
+  }
+  .header {
+    gap: 10px;
+    &__phone {
+     font-size: 12px;
+     text-align: center;
+    }
+  }
+  .button {
+    max-width: 115px;
+    max-height: 30px;
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .button {
+    &_main {
+      font-size: 14px;
+      min-height: 38px;
+      max-width: 220px;
+    }
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .advantage {
+    &__cards {
+      gap: 10px;
+    }
+    &__card {
+      padding-bottom: 15px;
+      flex-basis: 98%;
+      border-bottom: 1px solid $main-color;
+    }
+  }
+  .section-title {
+    &_left {
+      margin-bottom: 15px;
+      text-align: center;
+      line-height: 28px;
+    }
+  }
+  .consultation{
+    min-height: 555px;
+    padding: 30px;
+    &__descr {
+      text-align: center;
+      line-height: 1;
+    }
+  }
+  .feed-form {
+    input{
+      height: 45px;
+      margin-top: 15px;
+    }
+    .button_submit {
+      max-width: 232px;
+      max-height: 40px
+    }
+  }
+  .carusel {
+    padding: 30px 0;
+    &__inner{
+      ul{
+        gap: 20px;
+        button {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .catalog {
+    &__tabs {
+      gap: 5px;
+    }
+    &__tab {
+      max-width: 90px;
+      font-size: 12.5px;
+    }
+
+    &__content {
+      margin-top: 20px;
+      gap: 5px;
+    }
+    &-item {
+      flex-basis: 100%;
+    }
+  }
+  .review {
+    padding-bottom: 20px;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 0 12px;
+      border-bottom: 1px solid $main-color;
+    }
+    &__customer {
+      margin-right: 0;
+      margin-bottom: 20px;
+      max-width: 165px;
+      height: auto;
+    }
+    &__info {
+      &-title {
+        padding-top: 20px;
+      }
+    }
+  }
+  .footer {
+    &__info {
+      padding: 5px 10px 5px;
+      max-width: 100%;
+      max-height: 135px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &__adress, &__phone {
+    font-size: 18px;
+    }
+    &__social-item {
+      width: 40px;
+      height: 40px;
+      img{
+        height: 20px;
+      }
+    }  
+  }
+  .modal {
+    width: 90vw;
+    padding: 27px 5px 5px;
+    min-height: 390px;
+    &__close {
+      top: -7px;
+      right: 3px;
+    }
+    &__subtitle {
+      font-size: 17px;
+    }
+  }
+  .feed-form_mt25 {
+    margin-top: 10px;
+  }
+
+}
